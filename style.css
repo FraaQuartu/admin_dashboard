@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --blue: #93c5fd;
+  --grey: #d6d3d1;
+  --orange: #fcd34d;
+}
+
+
+body {
+  display: inline-grid;
+  grid-template-rows: 20vh 80vh;
+  grid-template-columns: 20vw 80vw;
+  grid-template-areas: 
+  "dashboard header"
+  "dashboard main"
+}
+
+.dashboard {
+  grid-area: dashboard;
+  background-color: var(--blue);
+
+}
+
+.header {
+  grid-area: header;
+  background-color: white
+}
+
+.main {
+  grid-area: main;
+  background-color: var(--grey);
+}
+
