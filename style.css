@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  border: 1px solid black;
 }
 
 :root {
@@ -18,18 +19,18 @@ body {
   "dashboard main"
 }
 
-.dashboard {
+#dashboard {
   grid-area: dashboard;
   background-color: var(--blue);
 
 }
 
-.header {
+#header {
   grid-area: header;
   background-color: white
 }
 
-.main {
+#main {
   grid-area: main;
   background-color: var(--grey);
 }
